@@ -31,7 +31,7 @@ header h1 {
 
 .class-link {
     background-color: #10123c;
-    color: #cac281;
+    color: #afa871;
     text-decoration: none;
     padding: 10px 20px;
     margin: 10px;
@@ -55,7 +55,7 @@ header h1 {
 }
 
 .student-card {
-    background-color: #cac281;
+    background-color: #afa871;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 5px;
@@ -147,7 +147,7 @@ header h1 {
 
 .back-button {
     background-color: #10123c;
-    color: #cac281;
+    color: #afa871;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
