@@ -48,12 +48,12 @@ function showModal(student) {
     const modalBody = document.getElementById('modal-body');
     modalBody.innerHTML = `
         <h2>${student.name}</h2>
-        <p>Возраст: ${student.age}</p>
-        <p>Класс: ${student.class}</p>
-        <p>Адрес: ${student.address}</p>
+        <p>Вік: ${student.age}</p>
+        <p>Розділ: ${student.class}</p>
+        <p>Адреса: ${student.address}</p>
         <p>Телефон: ${student.phone}</p>
         <p>Email: ${student.email}</p>
-        <p>Примечания: ${student.notes}</p>
+        <p>Примітки: ${student.notes}</p>
         <ul>
             ${student.files.map(file => `<li><a href="${file}" target="_blank">${file.split('/').pop()}</a></li>`).join('')}
         </ul>

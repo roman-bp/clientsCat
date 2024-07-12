@@ -130,6 +130,10 @@ header h1 {
     max-width: 600px;
     border-radius: 10px;
 }
+.modal-content p{
+    text-decoration-line: underline;
+  
+}
 
 .close {
     color: #aaa;
@@ -160,3 +164,4 @@ header h1 {
 .back-button:hover {
     background-color: #262744;
 }
+ю
