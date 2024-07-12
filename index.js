@@ -14,7 +14,7 @@ fetch('students.json')
         Object.keys(classes).forEach(className => {
             const classLink = document.createElement('a');
             classLink.href = `class.html?class=${encodeURIComponent(className)}`;
-            classLink.textContent = `Класс ${className}`;
+            classLink.textContent = ` ${className}`;
             classLink.className = 'class-link';
             container.appendChild(classLink);
         });

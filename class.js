@@ -6,7 +6,7 @@ function goBack() {
 // Получение параметра класса из URL
 const urlParams = new URLSearchParams(window.location.search);
 const className = urlParams.get('class');
-document.getElementById('class-title').textContent = `Класс ${className}`;
+document.getElementById('class-title').textContent = `${className}`;
 
 // Функция для создания карточки ученика
 function createStudentCard(student) {
